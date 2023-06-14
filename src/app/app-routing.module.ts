@@ -11,6 +11,7 @@ import { ErrorComponent } from './pages/error/error.component';
 import { ContactsupportComponent } from './pages/contactsupport/contactsupport.component';
 import { ForgotpasswordComponent } from './pages/forgotpassword/forgotpassword.component';
 import { ApplyformComponent } from './pages/applyform/applyform.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   {path: 'landingpage' , component:LandingpageComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path:'contactsupport',component:ContactsupportComponent},
   {path:'forgotpassword',component:ForgotpasswordComponent},
   {path:'apply',component:ApplyformComponent},
+  {path:'test',component:TestComponent},
 
 
 ];

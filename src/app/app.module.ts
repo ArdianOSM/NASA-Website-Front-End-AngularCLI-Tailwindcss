@@ -27,6 +27,7 @@ import { ErrorComponent } from './pages/error/error.component';
 import { ContactsupportComponent } from './pages/contactsupport/contactsupport.component';
 import { ForgotpasswordComponent } from './pages/forgotpassword/forgotpassword.component';
 import { ApplyformComponent } from './pages/applyform/applyform.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { ApplyformComponent } from './pages/applyform/applyform.component';
     ContactsupportComponent,
     ForgotpasswordComponent,
     ApplyformComponent,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
